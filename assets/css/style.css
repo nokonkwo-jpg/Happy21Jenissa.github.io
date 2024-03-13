@@ -490,6 +490,10 @@ body.active { overflow: hidden; }
 
 .hero-title { margin-block-end: 25px; }
 
+.btn-group {
+  display: flex;
+  gap: 15px;
+}
 
 
 

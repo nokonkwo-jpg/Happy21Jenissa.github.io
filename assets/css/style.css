@@ -497,16 +497,19 @@ body.active { overflow: hidden; }
 
 .right {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: flex-end; /* Move content to the right */
+  align-items: center; /* Vertically center the items */
 }
 
 .img-box {
   position: relative;
+  max-width: 50%; /* Adjust the maximum width relative to the page */
 }
 
 .hero-img {
-  max-width: 100%;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  display: block; /* Ensure image takes full width of its container */
+  margin: 0 auto; /* Center the image horizontally */
 }
 
 .pattern-bg {
@@ -516,6 +519,7 @@ body.active { overflow: hidden; }
 .shape {
   /* Your styles for the shapes */
 }
+
 
 
 

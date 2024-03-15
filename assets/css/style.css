@@ -503,7 +503,7 @@ body.active { overflow: hidden; }
 
 .img-box {
   position: relative;
-  max-width: 50%; /* Adjust the maximum width relative to the page */
+  max-width: 30%; /* Adjust the maximum width relative to the page */
 }
 
 .hero-img {
@@ -518,6 +518,9 @@ body.active { overflow: hidden; }
 
 .shape {
   /* Your styles for the shapes */
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  border-radius: 50%; /* Make the shape circular */
 }
 
 

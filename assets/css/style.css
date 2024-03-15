@@ -503,7 +503,7 @@ body.active { overflow: hidden; }
 
 .img-box {
   position: relative;
-  max-width: 10%; /* Adjust the maximum width relative to the page */
+  max-width: 30%; /* Adjust the maximum width relative to the page */
 }
 
 .hero-img {

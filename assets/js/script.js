@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * add event on element
  */
@@ -15,8 +13,6 @@ const addEventOnElem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
-
 
 /**
  * navbar toggle
@@ -40,8 +36,6 @@ const closeNavbar = function () {
 
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
-
-
 /**
  * search bar toggle
  */
@@ -57,3 +51,26 @@ const toggleSearchBar = function () {
 }
 
 addEventOnElem(searchTogglers, "click", toggleSearchBar);
+
+/**
+ * Handle image clicks and display enlarged versions
+ */
+
+document.addEventListener("DOMContentLoaded", function () {
+  const images = document.querySelectorAll('.img-holder img');
+
+  images.forEach(function (image) {
+    image.addEventListener('click', function () {
+      const enlargedImageContainer = document.createElement('div');
+      enlargedImageContainer.classList.add('enlarged-image');
+      enlargedImageContainer.innerHTML = `
+        <img src="${this.src}" alt="Enlarged Image">
+      `;
+      document.body.appendChild(enlargedImageContainer);
+
+      enlargedImageContainer.addEventListener('click', function () {
+        this.remove();
+      });
+    });
+  });
+});

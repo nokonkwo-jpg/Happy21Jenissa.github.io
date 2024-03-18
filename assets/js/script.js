@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 /**
  * add event on element
  */
@@ -13,6 +15,8 @@ const addEventOnElem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
+
+
 
 /**
  * navbar toggle
@@ -34,10 +38,9 @@ const closeNavbar = function () {
   navToggler.classList.remove("active");
 }
 
-// Close navbar when a link is clicked
-for (let i = 0; i < navbarLinks.length; i++) {
-  addEventOnElem(navbarLinks[i], "click", closeNavbar);
-}
+addEventOnElem(navbarLinks, "click", closeNavbar);
+
+
 
 /**
  * search bar toggle
@@ -53,8 +56,4 @@ const toggleSearchBar = function () {
   document.body.classList.toggle("active");
 }
 
-// Toggle search bar when search toggler is clicked
 addEventOnElem(searchTogglers, "click", toggleSearchBar);
-
-// Close search bar when overlay is clicked
-overlay.addEventListener("click", toggleSearchBar);

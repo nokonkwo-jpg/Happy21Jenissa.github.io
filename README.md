@@ -1,54 +1,36 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/blogy)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/blogy?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/blogy?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/NNQuhOeM0mI?style=social)](https://youtu.be/NNQuhOeM0mI)
+# Memorial Website
 
-  <br />
-  <br />
+  This is a memorial website created for my girlfriend's 21st birthday. It is fully responsive, built using HTML, CSS, and JavaScript.
 
-  <h2 align="center">Blogy - Blog Website</h2>
+  [**➥ Live Demo**](https://nokonkwo-jpg.github.io/Happy21Jenissa.github.io/)
 
-  Blogy is a fully responsive blog website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+## Overview
 
-  <a href="https://codewithsadee.github.io/blogy/"><strong>➥ Live Demo</strong></a>
+This website serves as a tribute and celebration of my girlfriend's 21st birthday. It features a responsive design, ensuring that it looks great and functions well on all devices, from desktop computers to mobile phones.
 
-</div>
+## Features
 
-<br />
+- **Responsive Design:** The website is designed to adapt to various screen sizes, providing an optimal viewing experience on all devices.
+- **HTML, CSS, and JavaScript:** Built using standard web technologies, making it easy to customize and maintain.
+- **Live Demo:** Click the link above to see the website in action.
 
-### Demo Screeshots
+## Installation & Deployment
 
-![Blogy Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+To deploy the website locally or on a web server:
 
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Blogy** locally, run this command on your git bash:
-
-Linux and macOS:
-
+1. Clone the repository:
 ```bash
-sudo git clone https://github.com/codewithsadee/blogy.git
+git clone https://github.com/nokonkwo-jpg/Happy21Jenissa.github.io.git
 ```
 
-Windows:
+3. Open the `index.html` file in your web browser to view the website locally.
 
-```bash
-git clone https://github.com/codewithsadee/blogy.git
-```
+4. To deploy the website to a web server, simply upload the contents of the repository to your server.
 
-### Contact
+## Contributing
 
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Contributions are always welcome!
 
-### License
+## License
 
-This project is **free to use** and does not contains any license.
+This project is free to use and does not contains any license.

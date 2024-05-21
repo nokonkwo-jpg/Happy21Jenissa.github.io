@@ -27,10 +27,6 @@ git clone https://github.com/nokonkwo-jpg/Happy21Jenissa.github.io.git
 
 4. To deploy the website to a web server, simply upload the contents of the repository to your server.
 
-## Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request. Contributions are always welcome!
-
 ## License
 
 This project is free to use and does not contains any license.
